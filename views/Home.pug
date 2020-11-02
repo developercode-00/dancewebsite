@@ -1,0 +1,52 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+
+block content
+    
+    
+    section#introsection
+        div Welcome To Taal-Dance-Acedemy
+        div.small Live Learn Dance 
+    section#missionsection
+        h2 Our Mission  
+        div.card
+          h3 Dance Perfection 
+          div.card-box
+              div.card-img
+                  img(src="/static/img/1.png")
+
+              div.card-content
+                  p This is the best dance acedemy of the  year
+             
+        div.card
+          h3 Dance the way you like 
+          div.card-box
+              div.card-img
+                  img(src="/static/img/2.png")
+
+              div.card-content
+                  p This is the best dance acedemy of the  year
+           
+        div.card
+          h3 Expert teaching
+          div.card-box
+              div.card-img
+                  img(src="/static/img/3.png")
+
+              div.card-content
+                  p This is the best dance acedemy of the  year
+    //- section#sponsorssection
+    //-     h2 Our Sponsors
+    //-     div#sponsors
+    //-         img(src="/static/img/apple.png", alt="sponsor image", class="spimage")
+    //-         img(src="/static/img/google.png", alt="sponsor image", class="spimage")
+    //-         img(src="/static/img/microsoft.png", alt="sponsor image", class="spimage")
+    //-         img(src="/static/img/skype.png", alt="sponsor image", class="spimage")
+
+     
